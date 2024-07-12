@@ -1,0 +1,70 @@
+body{
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+.container .col-6 .img{
+    text-align: right;
+}
+.container .col-6 .head{
+
+    margin-top: 40px;
+
+}
+.index{
+    text-align: center;
+    z-index: +1;
+    position: relative;
+    bottom: 40rem;
+    right: 26px;
+    margin:0px 50px;
+}
+.head1{
+    text-align: center;
+}
+.log2{
+    padding: 0px 30px;
+}
+.row .log3{
+    position: relative;
+    right: 0px;
+}
+.col-6 .head .row{
+    text-align: center;
+    padding: 10px 40px;
+}
+.col-6 .head .col-3{
+    background-color: rgb(228, 245, 252);
+    font-size: 30px;
+    border-radius: 10px;
+    margin:20px 20px;
+    padding:15px 10px;
+}
+.log4{
+    text-align: center;
+}
+.log4 span{
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.travel{
+    color: white;
+}
+.lorem{
+    color: white;
+}
